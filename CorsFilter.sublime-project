@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "build_systems":
+  [
+    {
+      "name":"CorsFilter Build",
+      "working_dir": "${project_path:${folder}}",
+      "selector": "pom.xml",
+      "shell": "bash",
+      "cmd": ["mvn clean package site javadoc:javadoc"]
+    }
+  ]
+}
