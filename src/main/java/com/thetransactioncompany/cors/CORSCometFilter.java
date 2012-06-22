@@ -39,7 +39,7 @@ import org.apache.catalina.comet.CometFilterChain;
  * </ul>
  *
  * @author <a href="http://dzhuvinov.com">Vladimir Dzhuvinov</a>
- * @version 1.3.1 (2011-12-02)
+ * @version 1.3.3 (2012-06-22)
  */
 public class CORSCometFilter implements CometFilter {
 
